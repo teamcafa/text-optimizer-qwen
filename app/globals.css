@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f0f0f;
+  color: #e8e0d4;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC",
+    "Helvetica Neue", sans-serif;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+textarea::placeholder {
+  color: #4a4440;
+}
+
+button {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+button:active {
+  opacity: 0.85;
+  transform: scale(0.99);
+}

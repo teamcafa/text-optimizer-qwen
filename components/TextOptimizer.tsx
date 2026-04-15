@@ -153,7 +153,7 @@ export default function TextOptimizer() {
     setOutputText("");
 
     try {
-      const response = await fetch("/api/optimize", {
+      const response = await fetch("https://api.i-wild.com/optimize", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
